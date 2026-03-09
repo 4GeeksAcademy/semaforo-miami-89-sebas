@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.circulo{
+    max-width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.principal-container{
+    border-radius: 10px;
+    display: block;
+    flex-direction: column;
+    max-width: 200px;
+}
+.first-circle{
+   box-shadow: 0px 0px 6px 9px red; 
+}
+.second-circle{
+    box-shadow: 0px 0px 6px 9px yellow;
+}
+.third-circle{
+    box-shadow: 0px 0px 6px 9px green;
+}
